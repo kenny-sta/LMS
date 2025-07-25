@@ -78,7 +78,15 @@
     errorDisplay.textContent = "❌ Incorrect password. CHECK PASSWORD and try again.";
     return;
   }
+localStorage.setItem("lmsUsername", username);
 
-  localStorage.setItem("lmsUsername", username);
-  window.location.href = selectedClass + ".html";
+// Make sure selectedClass is not empty or undefined
+if (selectedClass) {
+  const page = selectedClass + ".html";
+  console.log("Redirecting to:", page); // Optional: for debugging
+  window.location.href = page;
+} else {
+  alert("No class selected. Please select a class.");
+}
+
 });
