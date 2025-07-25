@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduLMS | Login</title>
+  <link rel="shortcut icon" href="https://edusko-dev-bucket.s3.eu-north-1.amazonaws.com/PIIBmYw0E_pHegY7Kz3rCJxvCZM6t4Dy.webp" type="image/x-icon">
+  <link rel="stylesheet" href="home.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="login-box" id="loginBox">
+      <div class="logo">
+        <img src="https://edusko-dev-bucket.s3.eu-north-1.amazonaws.com/PIIBmYw0E_pHegY7Kz3rCJxvCZM6t4Dy.webp" alt="School Logo" />
+        <h2>Everest Secondary School</h2>
+      </div>
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="🎓 Student or Staff Name" required />
+        <input type="password" id="password" placeholder="🔑 Password" required />
+        <select id="classSelect" required>
+          <option value="">Select Your Class</option>
+          <option value="JSS1">JSS1</option>
+          <option value="JSS2">JSS2</option>
+          <option value="JSS3">JSS3</option>
+          <option value="SS1">SS1</option>
+          <option value="SS2">SS2</option>
+          <option value="SS3">SS3</option>
+        </select>
+        <button type="submit">🔓 Login</button>
+        <p id="error" class="error-message"></p>
+      </form>
+      <div class="links">
+        <a href="#" class="forgot">Forgot Password?</a> |
+        <a href="#">Need Help?</a>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
