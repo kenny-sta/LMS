@@ -143,6 +143,95 @@
       ]
     },
     {
+  id: "eng1",
+  title: "Parts of Speech and Tenses",
+  questions: [
+    { question: "Which of these is a noun?", options: ["Run", "Blue", "Book", "Quick"], answer: "Book" },
+    { question: "Choose the correct tense: She ___ to school every day.", options: ["go", "goes", "going", "gone"], answer: "goes" },
+    { question: "Identify the adjective: The tall boy jumped.", options: ["tall", "boy", "jumped", "The"], answer: "tall" },
+    { question: "Pick the verb: The dog barked loudly.", options: ["dog", "barked", "loudly", "The"], answer: "barked" },
+    { question: "Which is a pronoun?", options: ["They", "Run", "Red", "Books"], answer: "They" },
+    { question: "Choose the correct tense: I ___ my homework now.", options: ["do", "did", "am doing", "does"], answer: "am doing" },
+    { question: "Identify the adverb: She sings beautifully.", options: ["She", "sings", "beautifully", "songs"], answer: "beautifully" },
+    { question: "Pick the preposition: The cat is under the table.", options: ["cat", "is", "under", "table"], answer: "under" },
+    { question: "Which is a conjunction?", options: ["and", "book", "quickly", "run"], answer: "and" },
+    { question: "Choose the correct article: ___ apple a day keeps the doctor away.", options: ["A", "An", "The", "No"], answer: "An" }
+  ]
+},
+
+// Quiz 2 – English Vocabulary and Usage
+{
+  id: "eng2",
+  title: "Vocabulary and Usage",
+  questions: [
+    { question: "Choose the synonym of 'happy'", options: ["sad", "joyful", "angry", "tired"], answer: "joyful" },
+    { question: "What is the opposite of 'quick'?", options: ["slow", "fast", "jump", "run"], answer: "slow" },
+    { question: "Which word means 'to go up'?", options: ["descend", "ascend", "fall", "drop"], answer: "ascend" },
+    { question: "Pick the correct spelling:", options: ["definately", "definitely", "defanitely", "definetly"], answer: "definitely" },
+    { question: "Choose the correct word: He ___ the ball.", options: ["through", "threw", "throw", "threwed"], answer: "threw" },
+    { question: "What is a homophone for 'bare'?", options: ["bear", "bar", "bore", "beer"], answer: "bear" },
+    { question: "Choose the correct phrase: A ___ of lions.", options: ["herd", "pack", "pride", "flock"], answer: "pride" },
+    { question: "Which of these is a verb?", options: ["running", "beauty", "happy", "quick"], answer: "running" },
+    { question: "Choose the correct meaning: 'He kicked the bucket.'", options: ["He kicked something", "He died", "He played football", "He was angry"], answer: "He died" },
+    { question: "What is a synonym of 'angry'?", options: ["furious", "happy", "sad", "calm"], answer: "furious" }
+  ]
+},
+
+// Quiz 3 – English Comprehension
+{
+  id: "eng3",
+  title: "Reading Comprehension",
+  questions: [
+    { question: "Who is the main character in the story?", options: ["John", "The teacher", "The student", "The dog"], answer: "John" },
+    { question: "What did John forget to do?", options: ["Eat lunch", "Do homework", "Feed the dog", "Go to school"], answer: "Do homework" },
+    { question: "Where does the story take place?", options: ["In a market", "In a classroom", "At the park", "In a house"], answer: "In a classroom" },
+    { question: "Why was the teacher angry?", options: ["John was late", "John forgot homework", "John fought", "John slept"], answer: "John forgot homework" },
+    { question: "What did John promise?", options: ["To do better", "To fight", "To sleep", "To eat"], answer: "To do better" },
+    { question: "What is the moral of the story?", options: ["Always be kind", "Do your work", "Eat well", "Play hard"], answer: "Do your work" },
+    { question: "How did the story end?", options: ["John ran away", "The teacher forgave him", "John cried", "Class ended"], answer: "The teacher forgave him" },
+    { question: "How did John feel?", options: ["Happy", "Sad", "Sorry", "Angry"], answer: "Sorry" },
+    { question: "What was the teacher’s name?", options: ["Mrs. Green", "Miss Peace", "Mr. Joe", "Mr. Book"], answer: "Mr. Joe" },
+    { question: "What class was John in?", options: ["JSS1", "JSS2", "SS1", "Primary 5"], answer: "JSS1" }
+  ]
+},
+
+// Quiz 4 – English Writing Skills
+{
+  id: "eng4",
+  title: "Writing Skills",
+  questions: [
+    { question: "Choose the correct sentence:", options: ["She go to school.", "She goes to school.", "She going school.", "She gone school."], answer: "She goes to school." },
+    { question: "What do you write at the end of a letter?", options: ["Sincerely", "Hello", "Dear", "Please"], answer: "Sincerely" },
+    { question: "Which is a formal greeting?", options: ["Hey", "Hi", "Good morning", "Yo"], answer: "Good morning" },
+    { question: "What is needed at the end of a sentence?", options: ["Comma", "Exclamation", "Period", "Nothing"], answer: "Period" },
+    { question: "Which is correct for a story title?", options: ["a great day", "A Great Day", "A great day", "a Great Day"], answer: "A Great Day" },
+    { question: "What should a good paragraph have?", options: ["Many topics", "No topic sentence", "One main idea", "Only one sentence"], answer: "One main idea" },
+    { question: "Which is an example of dialogue?", options: ["John said he was tired.", ""I'm tired," said John.", "John being tired.", "He tired"], answer: '"I'm tired," said John.' },
+    { question: "Which is a good conclusion sentence?", options: ["I like cats.", "The end.", "This is my story.", "So, that was how I won the race."], answer: "So, that was how I won the race." },
+    { question: "Which sentence is in past tense?", options: ["She eats rice.", "She eating rice.", "She ate rice.", "She eat rice."], answer: "She ate rice." },
+    { question: "What do we use to join sentences?", options: ["Dots", "Verbs", "Conjunctions", "Subjects"], answer: "Conjunctions" }
+  ]
+},
+
+// Quiz 5 – English Literature and Figures of Speech
+{
+  id: "eng5",
+  title: "Literature and Figures of Speech",
+  questions: [
+    { question: "What is a simile?", options: ["A comparison using like or as", "A sound word", "An exaggeration", "A direct statement"], answer: "A comparison using like or as" },
+    { question: "Which is an example of a metaphor?", options: ["He is as fast as a cheetah.", "He ran fast.", "He is a lion in battle.", "He looks like a lion."], answer: "He is a lion in battle." },
+    { question: "'The wind whispered' is an example of?", options: ["Simile", "Metaphor", "Personification", "Irony"], answer: "Personification" },
+    { question: "What is the theme of a story?", options: ["The main idea", "The characters", "The location", "The ending"], answer: "The main idea" },
+    { question: "Choose the correct figure of speech: 'He kicked the bucket.'", options: ["Simile", "Idiom", "Metaphor", "Irony"], answer: "Idiom" },
+    { question: "Which is a drama term?", options: ["Stage", "Poem", "Story", "Letter"], answer: "Stage" },
+    { question: "What is rhyme?", options: ["Repeated letters", "Matching sounds", "Beautiful words", "Short lines"], answer: "Matching sounds" },
+    { question: "Pick a character in a play.", options: ["Actor", "Poet", "Narrator", "Author"], answer: "Actor" },
+    { question: "'She sells sea shells' is an example of?", options: ["Alliteration", "Metaphor", "Simile", "Hyperbole"], answer: "Alliteration" },
+    { question: "What is a plot?", options: ["The setting", "The problem and events", "The character list", "The title"], answer: "The problem and events" }
+  ]
+}
+
+    {
       name: "Science",
       topics: ["Biology", "Physics", "Chemistry"],
       quizzes: [
