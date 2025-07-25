@@ -73,6 +73,60 @@
         }
       ]
     },
+    // Quiz 3 – Harder Level Questions
+{
+  id: "math3",
+  title: "Algebra and Logic",
+  questions: [
+    { question: "Solve: 3x + 5 = 17", options: ["4", "5", "6", "7"], answer: "4" },
+    { question: "Factorize: x² - 9", options: ["(x+3)(x-3)", "(x+9)(x-1)", "(x-3)(x-3)", "x(x-9)"], answer: "(x+3)(x-3)" },
+    { question: "Which is a multiple of both 3 and 4?", options: ["12", "15", "24", "36"], answer: "12" },
+    { question: "Simplify: 2(3x - 4) + 4", options: ["6x - 4", "6x - 8", "6x + 4", "6x - 2"], answer: "6x - 4" },
+    { question: "What is the solution to: x² = 64?", options: ["6", "7", "8", "9"], answer: "8" },
+    { question: "The additive inverse of -7 is?", options: ["-7", "0", "7", "1"], answer: "7" },
+    { question: "Which of these is not a prime number?", options: ["2", "3", "9", "11"], answer: "9" },
+    { question: "If 2x = 10, then x = ?", options: ["4", "5", "6", "7"], answer: "5" },
+    { question: "What is the coefficient of x in 5x + 3?", options: ["3", "5", "x", "8"], answer: "5" },
+    { question: "Simplify: (x² + 2x + 1) ÷ (x + 1)", options: ["x + 1", "x² + 1", "x", "x - 1"], answer: "x + 1" }
+  ]
+},
+
+// Quiz 4 – Harder Geometry and Mensuration
+{
+  id: "math4",
+  title: "Geometry and Measurement",
+  questions: [
+    { question: "How many degrees are in a right angle?", options: ["90", "180", "45", "360"], answer: "90" },
+    { question: "Find the perimeter of a square with side 5 cm.", options: ["10 cm", "15 cm", "20 cm", "25 cm"], answer: "20 cm" },
+    { question: "What is the area of a triangle with base 4 cm and height 6 cm?", options: ["12 cm²", "24 cm²", "10 cm²", "20 cm²"], answer: "12 cm²" },
+    { question: "A straight angle measures?", options: ["180°", "90°", "360°", "0°"], answer: "180°" },
+    { question: "Volume of cube with side 3 cm?", options: ["9 cm³", "18 cm³", "27 cm³", "36 cm³"], answer: "27 cm³" },
+    { question: "An angle more than 90° but less than 180° is?", options: ["Acute", "Right", "Obtuse", "Reflex"], answer: "Obtuse" },
+    { question: "How many sides has a hexagon?", options: ["5", "6", "7", "8"], answer: "6" },
+    { question: "Find the area of a square with side 8 cm.", options: ["64 cm²", "16 cm²", "32 cm²", "48 cm²"], answer: "64 cm²" },
+    { question: "What is the circumference of a circle with diameter 14 cm (π = 22/7)?", options: ["44 cm", "33 cm", "22 cm", "28 cm"], answer: "44 cm" },
+    { question: "What is the name of a 3D shape with 6 equal square faces?", options: ["Cube", "Cuboid", "Sphere", "Pyramid"], answer: "Cube" }
+  ]
+},
+
+// Quiz 5 – Harder Statistics and Number Work
+{
+  id: "math5",
+  title: "Statistics and Number Work",
+  questions: [
+    { question: "Find the mean of 2, 4, 6, 8, 10.", options: ["6", "5", "7", "8"], answer: "6" },
+    { question: "What is the mode of: 3, 3, 6, 9, 3, 6?", options: ["3", "6", "9", "None"], answer: "3" },
+    { question: "What is the median of: 1, 3, 3, 6, 7, 8, 9?", options: ["3", "6", "7", "5"], answer: "6" },
+    { question: "What is 25% of 80?", options: ["20", "25", "30", "15"], answer: "20" },
+    { question: "Convert 0.75 to a fraction.", options: ["3/4", "1/2", "2/3", "4/5"], answer: "3/4" },
+    { question: "Round 487 to the nearest hundred.", options: ["400", "500", "480", "490"], answer: "500" },
+    { question: "Simplify: 16/64.", options: ["1/2", "1/3", "1/4", "1/5"], answer: "1/4" },
+    { question: "A bag contains 3 red, 2 blue, 5 green balls. Probability of red?", options: ["3/10", "1/5", "1/3", "2/5"], answer: "3/10" },
+    { question: "Find LCM of 3 and 4.", options: ["6", "12", "9", "8"], answer: "12" },
+    { question: "What is 12²?", options: ["144", "124", "132", "122"], answer: "144" }
+  ]
+},
+
     {
       name: "English",
       topics: ["Grammar", "Vocabulary", "Comprehension", "Writing"],
