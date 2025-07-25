@@ -82,7 +82,7 @@
     localStorage.setItem("lmsUsername", student.name);
 
     // Redirect safely
-    const page = selectedClass + ".html";
+   const page = "pages/" + selectedClass + ".html";
 
     // Optional: log for testing
     console.log("Redirecting to:", page);
