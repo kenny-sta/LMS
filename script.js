@@ -56,7 +56,7 @@
 
     const username = document.getElementById("username").value.trim();
     const enteredPass = document.getElementById("password").value.trim();
-    const selectedClass = document.getElementById("classSelect").value;
+    const selectedClass = document.getElementById("classSelect").value.trim();
     const errorDisplay = document.getElementById("error");
 
     errorDisplay.textContent = "";
@@ -78,16 +78,13 @@
       return;
     }
 
-    // Save to localStorage
+    // Save username to local storage
     localStorage.setItem("lmsUsername", student.name);
 
-    // Redirect safely
-   const page = "pages/" + selectedClass + ".html";
+    // ✅ Build file name in lowercase (e.g., jss1.html)
+    const classFile = selectedClass.toLowerCase() + ".html";
 
-    // Optional: log for testing
-    console.log("Redirecting to:", page);
-
-    // Navigate to class page
-    window.location.href = page;
+    // ✅ Redirect (no folder since file is in same directory)
+    window.location.href = classFile;
   });
 </script>
