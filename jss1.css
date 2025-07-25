@@ -31,6 +31,14 @@
     cursor: pointer;
     font-weight: 600;
   }
+ img {
+    max-width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0 auto; /* optional: center it */
+    border-radius: 10px; /* optional: rounded corners */
+    margin-bottom: 50px;
+  }
   .sidebar nav a:hover, .sidebar nav a.active { background-color: #34495e; }
   .main-content {
     flex: 1;
